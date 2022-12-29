@@ -8,12 +8,15 @@ public class User {
 	private String password;
 	private String name;
 
-//	public User(String[] userValue) {
-//		this.username = userValue[0];
-//		this.password = userValue[1];
-//		this.name = userValue[2];
-//
-//	}
+	public User() {
+		
+	}
+	
+	public User(String username, String password) {
+		this.username = username;
+		this.password = password;
+
+	}
 
 	public String getUsername() {
 		return username;

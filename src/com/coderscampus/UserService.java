@@ -7,14 +7,7 @@ import java.io.IOException;
 
 public class UserService {
 
-	public User validUser(String username, String password) {
-		return null;
-		
-//		for(User user : Application.users) {
-//			
-//			
-//			
-		}
+
 
 	public static User createUser(String[] stringInputs) {
 
