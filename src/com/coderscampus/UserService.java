@@ -7,8 +7,6 @@ import java.io.IOException;
 
 public class UserService {
 
-
-
 	public static User createUser(String[] stringInputs) {
 
 		String userName = stringInputs[0];
@@ -32,7 +30,6 @@ public class UserService {
 
 	public User[] getUserArray() throws FileNotFoundException {
 		User[] users = new User[4];
-//		UserService userService = new UserService();
 		String[] userData = null;
 		int i = 0;
 		try (BufferedReader fileReader = new BufferedReader(new FileReader("data.txt"))) {
