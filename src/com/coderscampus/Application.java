@@ -13,7 +13,7 @@ public class Application {
 		boolean successfullLogin = false;
 		Scanner scanner = new Scanner(System.in);
 
-		while (numberOfTries <= 5) {
+		while (numberOfTries < 5) {
 			System.out.println("Enter your email address");
 			String username = scanner.nextLine();
 			System.out.println("Enter your password");
