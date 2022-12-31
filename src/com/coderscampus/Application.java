@@ -19,7 +19,9 @@ public class Application {
 			System.out.println("Enter your password");
 			String password = scanner.nextLine();
 			if (validUser(userArray, password, username) != true) {
+				if(numberOfTries < 4) {
 				System.out.println("Invalid login, please try again");
+				}
 				numberOfTries++;
 			} else {
 				successfullLogin = true;
